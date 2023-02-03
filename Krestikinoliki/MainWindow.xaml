@@ -1,0 +1,36 @@
+﻿<Window x:Class="Krestikinoliki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Krestikinoliki"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="607" Width="1138">
+    <Grid>
+        <Button x:Name="btn1" Content="" HorizontalAlignment="Left" Height="144" Margin="42,83,0,0" VerticalAlignment="Top" Width="159" Background="Black" Click="btn_Click" FontSize="100" FontFamily="Colonna MT"/>
+        <Button x:Name="btn4" Content="" HorizontalAlignment="Left" Height="147" Margin="42,251,0,0" VerticalAlignment="Top" Width="159" Background="Black" Click="btn_Click" FontFamily="Colonna MT" FontSize="100"/>
+        <Button x:Name="btn2" Content="" HorizontalAlignment="Left" Height="144" Margin="271,83,0,0" VerticalAlignment="Top" Width="159" Background="#FF040404" Click="btn_Click" FontFamily="Colonna MT" FontSize="100"/>
+        <Button x:Name="btn5" Content="" HorizontalAlignment="Left" Height="143" Margin="270,251,0,0" VerticalAlignment="Top" Width="160" Background="Black" Click="btn_Click" FontFamily="Colonna MT" FontSize="100"/>
+        <Button x:Name="btn7" Content="" HorizontalAlignment="Left" Height="142" Margin="42,420,0,0" VerticalAlignment="Top" Width="159" Background="Black" Click="btn_Click" FontSize="100" FontFamily="Colonna MT"/>
+        <Button x:Name="btn8" Content="" HorizontalAlignment="Left" Height="143" Margin="270,420,0,0" VerticalAlignment="Top" Width="159" RenderTransformOrigin="1.981,0.5" Background="Black" Click="btn_Click" FontFamily="Colonna MT" FontSize="100"/>
+        <Button x:Name="btn9" Content="" HorizontalAlignment="Center" Height="143" Margin="0,420,0,0" VerticalAlignment="Top" Width="159" RenderTransformOrigin="1.981,0.5" Background="Black" Click="btn_Click" FontFamily="Colonna MT" FontSize="100"/>
+        <Button x:Name="btn6" Content="" HorizontalAlignment="Center" Height="143" VerticalAlignment="Top" Width="158" RenderTransformOrigin="1.981,0.5" Background="Black" Margin="0,251,0,0" Click="btn_Click" FontFamily="Colonna MT" FontSize="100"/>
+        <Button x:Name="btn3" Content="" HorizontalAlignment="Center" Height="143" VerticalAlignment="Top" Width="159" RenderTransformOrigin="1.981,0.5" Margin="0,83,0,0" Background="Black" Click="btn_Click" FontFamily="Colonna MT" FontSize="100"/>
+        <Button x:Name="start" Content="Начать" HorizontalAlignment="Left" Height="81" Margin="689,38,0,0" VerticalAlignment="Top" Width="419" RenderTransformOrigin="0.5,0.5" FontSize="48" Background="#FFFFDCDC" FontFamily="Cascadia Code Light" Click="start_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="3.245"/>
+                    <RotateTransform Angle="-0.107"/>
+                    <TranslateTransform X="2.977" Y="-0.006"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <RadioButton x:Name="Simka" Content="Симка" HorizontalAlignment="Left" Height="55" Margin="722,143,0,0" VerticalAlignment="Top" Width="324" Background="White" FontSize="36" Checked="RadioButton_Checked"/>
+        <RadioButton x:Name="Shpulia" Content="Шпуля" HorizontalAlignment="Left" Height="55" Margin="722,219,0,0" VerticalAlignment="Top" Width="324" Background="White" FontSize="36" Checked="Shpulia_Checked"/>
+        <TextBlock x:Name="Player" HorizontalAlignment="Left" Height="45" Margin="68,33,0,0" TextWrapping="Wrap" Text="Играешь за фаера" VerticalAlignment="Top" Width="546" FontSize="24"/>
+        <Button x:Name="lazarev_love" Content="сдавайся в твоей войне ничья&#xA; и я прошу возвращайся&#xD;&#xA; сдавайся в моей пустыне ты мираж&#xD;&#xA; но не исчезай &#xA;я не верил что без любви душа как без воды&#xD;&#xA; высыхает&#xA; я больше тебе не враг сдавайся" HorizontalAlignment="Center" Height="192" Margin="710,371,0,0" VerticalAlignment="Top" Width="390" FontSize="18" FontFamily="Bahnschrift" Click="lazarev_love_Click" Background="Red"/>
+        <TextBlock x:Name="Win" HorizontalAlignment="Left" Height="41" Margin="764,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244"/>
+
+    </Grid>
+</Window>
